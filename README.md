@@ -25,8 +25,8 @@ Before you begin, ensure you have the following installed on your machine:
    Open your terminal and run the following command to clone this repository:
 
    ```bash
-   git clone <https://huggingface.co/spaces/Ishita2416/OCR_application>
-   cd <OCR_application>
+   git clone 
+   cd OCR_application
 Create a Virtual Environment
 
 It's a good practice to use a virtual environment to manage dependencies:
