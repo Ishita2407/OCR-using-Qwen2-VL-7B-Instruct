@@ -1,7 +1,15 @@
 # Image OCR with Keyword Search and Question Answering
 
 This project utilizes the `Qwen2-VL-7B-Instruct` model from Hugging Face to perform Optical Character Recognition (OCR) on uploaded images. The application allows users to extract text from images and either search for specific keywords or ask questions about the content.
-![image](https://github.com/user-attachments/assets/de13885a-439a-4e7c-bcb4-a1a272a26e70)
+# Project Results Screenshorts
+Demo1
+![image](https://github.com/user-attachments/assets/ef905e5e-95bc-47cd-b601-3758eb6c6cac)
+
+Demo 2
+![image](https://github.com/user-attachments/assets/07d40bfb-065f-4706-8879-0ee2cc82a1fc)
+
+Demo 3
+![image](https://github.com/user-attachments/assets/0d842371-d554-4a28-9a0c-4154a10af902)
 
 
 ## Table of Contents
@@ -107,13 +115,4 @@ Keyword Search: Enter a keyword to search for in the extracted text.
 Question Answering: Switch to the "Question Answering" mode to ask questions about the image content.
 Contributing
 Contributions are welcome! If you have suggestions for improvements or find bugs, please open an issue or submit a pull request.
-
-# Project Results Screenshorts
-Demo1
-![image](https://github.com/user-attachments/assets/ef905e5e-95bc-47cd-b601-3758eb6c6cac)
-
-Demo 2
-![image](https://github.com/user-attachments/assets/07d40bfb-065f-4706-8879-0ee2cc82a1fc)
-
-Demo 3
 
