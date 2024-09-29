@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed on your machine:
    Open your terminal and run the following command to clone this repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/Ishita2407/OCR-using-Qwen2-VL-7B-Instruct.git
    cd OCR_application
 Create a Virtual Environment
 
