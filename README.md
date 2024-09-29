@@ -108,4 +108,7 @@ Question Answering: Switch to the "Question Answering" mode to ask questions abo
 Contributing
 Contributions are welcome! If you have suggestions for improvements or find bugs, please open an issue or submit a pull request.
 
+# Project Results Screenshorts
+![image](https://github.com/user-attachments/assets/ef905e5e-95bc-47cd-b601-3758eb6c6cac)
+
 
