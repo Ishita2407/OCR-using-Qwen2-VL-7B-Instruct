@@ -11,16 +11,6 @@ Demo 2
 Demo 3
 ![image](https://github.com/user-attachments/assets/0d842371-d554-4a28-9a0c-4154a10af902)
 
-
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-- [Running the Application Locally](#running-the-application-locally)
-- [Deployment Process](#deployment-process)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
@@ -37,82 +27,38 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/Ishita2407/OCR-using-Qwen2-VL-7B-Instruct.git
    cd OCR_application
-Create a Virtual Environment
+## Create a Virtual Environment
 
 It's a good practice to use a virtual environment to manage dependencies:
 
-bash
-Copy code
-python -m venv venv
-Activate the virtual environment:
+- bash
+- python -m venv venv
 
-On Windows:
+## Activate the virtual environment:
+- On Windows:
 bash
-Copy code
 venv\Scripts\activate
-On macOS/Linux:
+
+- On macOS/Linux:
 bash
-Copy code
 source venv/bin/activate
-Install Required Packages
 
+## Install Required Packages
 Install the necessary libraries using pip:
+- bash
+- pip install -r requirements.txt
 
-bash
-Copy code
-pip install -r requirements.txt
-Make sure the requirements.txt file includes the following packages:
+## Make sure the requirements.txt file includes the following packages:
+- plaintext
+- torch
+- transformers
+- gradio
+- Pillow
 
-plaintext
-Copy code
-torch
-transformers
-gradio
-Pillow
-Running the Application Locally
+## Running the Application Locally
 Ensure your environment is activated (refer to step 2 in the Setup Instructions).
 
-Run the application
-
+## Run the application
 Execute the following command to start the Gradio app:
-
 bash
-Copy code
 python app.py
-Replace app.py with the name of your main Python file if it's named differently.
-
-Access the Application
-
-Once the application is running, you will see output in your terminal indicating that the app is accessible. Open your web browser and go to the following URL:
-
-arduino
-Copy code
-http://localhost:7860
-Deployment Process
-To deploy this application, you can use platforms like Hugging Face Spaces or Streamlit Sharing. Below is a general outline for deploying on Hugging Face Spaces:
-
-Create a New Space
-
-Go to Hugging Face Spaces and create a new space.
-
-Upload Your Files
-
-Upload the following files to your space:
-
-app.py (or your main Python file)
-requirements.txt (make sure it includes all necessary libraries)
-Configure the Space
-
-Ensure that your space is configured to run Python applications. You may need to specify the entry point in the settings.
-
-Deploy
-
-Once your files are uploaded, Hugging Face will automatically build and deploy your application. You will receive a URL to access your deployed app once it is live.
-
-Usage
-Upload Image: Click on the "Upload Image" button to select an image from your device.
-Keyword Search: Enter a keyword to search for in the extracted text.
-Question Answering: Switch to the "Question Answering" mode to ask questions about the image content.
-Contributing
-Contributions are welcome! If you have suggestions for improvements or find bugs, please open an issue or submit a pull request.
-
