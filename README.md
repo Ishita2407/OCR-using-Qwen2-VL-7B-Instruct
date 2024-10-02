@@ -62,3 +62,5 @@ Ensure your environment is activated (refer to step 2 in the Setup Instructions)
 Execute the following command to start the Gradio app:
 bash
 python app.py
+
+![image](https://github.com/user-attachments/assets/77ca5389-5aea-4dbb-9df3-a245131c0323)
